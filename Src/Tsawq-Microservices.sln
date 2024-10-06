@@ -3,11 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{73C80849-8E94-4E8D-8B12-F8E18359EB50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{8C196056-4EFF-4413-B8A4-CD746871B80D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{F8AF327A-247D-4CE9-B6DC-E777BBEB83EB}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {378DC3E3-BF54-485B-90F7-CC769AF0CD8C}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C196056-4EFF-4413-B8A4-CD746871B80D} = {73C80849-8E94-4E8D-8B12-F8E18359EB50}
+		{F8AF327A-247D-4CE9-B6DC-E777BBEB83EB} = {8C196056-4EFF-4413-B8A4-CD746871B80D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 	EndGlobalSection
 EndGlobal
